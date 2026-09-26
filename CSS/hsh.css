@@ -1,3 +1,5 @@
+/* General */
+
 body{
     background-color:#BB00FF;
     font-family: "Schoolbell", cursive;
@@ -5,3 +7,52 @@ body{
     font-style: normal;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.naU {
+    text-decoration: none;
+}
+
+/* Elements */
+
+p.fire {
+    color:#DD2222;
+}
+
+.fire:hover {
+    transform: scale(1.2);
+}
+
+p.water {
+    color:#2222BB;
+}
+
+p.earth {
+    color:#6A4805;
+}
+
+.earth:hover {
+    color:#482603;
+}
+
+p.wind {
+    color:#FFFFFF;
+}
+
+.wind:hover {
+    transform: scale(0.8);
+}
+
+/* Buttons */
+
+button {
+    color:#FFFFFF;
+    background-color:#FDFD3A;
+    border-color:#EEEEEE;
+    padding: 10px;                                                                                                                                                                                                                                                                                                              px;
+}
+
+
